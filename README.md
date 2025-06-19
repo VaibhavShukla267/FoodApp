@@ -1,13 +1,48 @@
-# React + Vite
+# 🍽️ Swiggy Clone - Restaurant Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simplified **Swiggy-like restaurant listing app** built with **React.js**. It fetches data from Swiggy's internal API, displays a list of restaurants, allows searching and filtering, and shows a shimmer loader while data is being fetched.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🛒 Fetches real restaurant data from Swiggy (unofficial public endpoint)
+- 🔍 Search restaurants by name
+- 🌟 Filter top-rated restaurants (rating > 4.3)
+- 💡 Shimmer UI loading effect
+- 💡 Added Framer Motion effect
+- 📦 Clean component-based architecture
+- 🔄 State management using `useState` and `useEffect`
+- 🧹 Handles duplicate restaurants using Map
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# FoodApp
+---
+
+## 🛠️ Technologies Used
+
+- [React.js](https://reactjs.org/)
+- JavaScript (ES6+)
+- HTML5 + CSS3 (SCSS/Nested styling)
+- Swiggy API (unofficial)
+- Vite / CRA for development
+
+---
+
+## 📂 Project Structure
+
+```bash
+.
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── BodyComponents/
+│   │   │   ├── CardContainer.jsx
+│   │   │   └── SearchBar.jsx
+│   ├── utils/
+│   │   └── FoodAPI.js       # Contains REST_LIST_URI
+│   ├── App.jsx
+│   ├── Body.jsx             # Main component fetching API
+│   ├── Shimmer.jsx          # Shimmer loader component
+│   ├── index.js
+│   └── styles.css
+└── package.json
