@@ -28,21 +28,43 @@ This is a simplified **Swiggy-like restaurant listing app** built with **React.j
 ---
 
 ## 📂 Project Structure
-
 ```bash
-.
+FOODAPP/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── components/
+│   ├── assets/                         # Static assets (images, icons, etc.)
+│
+│   ├── Components/
 │   │   ├── BodyComponents/
-│   │   │   ├── CardContainer.jsx
-│   │   │   └── SearchBar.jsx
+│   │   │   ├── CardContainer.jsx       # Single restaurant card component
+│   │   │   ├── RestaurantDetail.jsx    # Detailed view of a restaurant (optional/extra)
+│   │   │   └── SearchBar.jsx           # Search input component
+│   │   │
+│   │   ├── FooterComponents/
+│   │   │   └── (optional footer subcomponents)
+│   │   └── HeaderComponents/
+│   │       ├── About.jsx              # About page
+│   │       ├── ContactUs.jsx          # Contact page
+│   │       └── Navbar.jsx             # Navigation bar inside Header
+│
 │   ├── utils/
-│   │   └── FoodAPI.js       # Contains REST_LIST_URI
-│   ├── App.jsx
-│   ├── Body.jsx             # Main component fetching API
-│   ├── Shimmer.jsx          # Shimmer loader component
-│   ├── index.js
-│   └── styles.css
-└── package.json
+│   │   ├── FoodAPI.js                  # Swiggy API URL (REST_LIST_URI)
+│   │   └── FoodImg.js                  # Image constants or URLs
+│
+│   ├── Body.jsx                        # Main listing page
+│   ├── Header.jsx                      # Header wrapper
+│   ├── Footer.jsx                      # Footer wrapper
+│   ├── Shimmer.jsx                     # Loading skeleton (Shimmer UI)
+│   ├── ErrorElement.jsx                # Error page / fallback UI
+│   ├── App.jsx                         # Main routing and layout
+│   ├── App.css                         # App-wide styling
+│   ├── index.css                       # Global styles
+│   └── main.jsx                        # ReactDOM root
+│
+├── .gitignore
+├── README.md
+├── package.json
+├── package-lock.json
+├── vite.config.js                     # Vite config (if using Vite)
+└── eslint.config.js
