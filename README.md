@@ -4,6 +4,12 @@ This is a simplified **Swiggy-like restaurant listing app** built with **React.j
 
 ---
 
+![Preview](https://github.com/user-attachments/assets/3f92fc86-0277-49a4-bcb7-b770ceb6c998)
+![Preview](https://github.com/user-attachments/assets/cfc0d673-dffd-4790-a0c0-40718d5487d0)
+![Preview](https://github.com/user-attachments/assets/eb457b3d-9df6-47f8-b210-7ae98ff1dc0e)
+
+
+
 ## 🚀 Features
 
 - 🛒 Fetches real restaurant data from Swiggy (unofficial public endpoint)
