@@ -28,7 +28,7 @@ This is a simplified **Swiggy-like restaurant listing app** built with **React.j
 - [React.js](https://reactjs.org/)
 - JavaScript (ES6+)
 - HTML5 + CSS3 (SCSS/Nested styling)
-- Swiggy API (unofficial)
+- Swiggy API (official)
 - Vite / CRA for development
 
 ---
