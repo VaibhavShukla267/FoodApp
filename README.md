@@ -12,11 +12,13 @@ This is a simplified **Swiggy-like restaurant listing app** built with **React.j
 
 ## 🚀 Features
 
-- 🛒 Fetches real restaurant data from Swiggy (unofficial public endpoint)
+- 🛒 Fetches real-time restaurant data from Swiggy 
+- 🛒 Fetches real-time restaurant category data from Swiggy 
 - 🔍 Search restaurants by name
 - 🌟 Filter top-rated restaurants (rating > 4.3)
 - 💡 Shimmer UI loading effect
 - 💡 Added Framer Motion effect
+- 💡 Added Promotion Banner for restaurants that have a special offer
 - 📦 Clean component-based architecture
 - 🔄 State management using `useState` and `useEffect`
 - 🧹 Handles duplicate restaurants using Map
