@@ -4,7 +4,8 @@ This is a simplified **Swiggy-like restaurant listing app** built with **React.j
 
 ---
 
-![Preview](https://github.com/user-attachments/assets/3f92fc86-0277-49a4-bcb7-b770ceb6c998)
+![Preview](<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/4c6c76ae-ad8b-432d-9c73-c717b32da5fe" />
+)
 ![Preview](https://github.com/user-attachments/assets/cfc0d673-dffd-4790-a0c0-40718d5487d0)
 ![Preview](https://github.com/user-attachments/assets/eb457b3d-9df6-47f8-b210-7ae98ff1dc0e)
 
